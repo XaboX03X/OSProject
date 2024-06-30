@@ -35,22 +35,22 @@ Team Mates:
 3. Click on ***New codespace***.
 4. Choose your own OSProject repository to start your codespace.
 
- <img src="./images/newcodespace.png" width="50%">
+ <img src="./webpage/newcodespace.png" width="50%">
 
 5. Once you have created you codespace, you will see the following. You might already be familiar with this, since it will look similar to VSCode. 
 
- <img src="./images/UIwebvscode.png" width="70%">
+ <img src="./webpage/UIwebvscode.png" width="70%">
 
 6. You will see the [README file](./README.md) file. One is a preview of how it looks like on the web, and the other is the editing view in markdown language. 
 7. Edit the [README file](./README.md). Make sure you have your group details correct, ie, group name, section and team members along with their matric IDs. 
 8. Once you have finish editing, click File->Save or ***ctrl-s*** to save it. 
 9. After saving, you will notice an M or U next to your file. You will need to commit any changes, whenever you make changes so that it is uploaded to the github repository. 
 
- <img src="./images/SourceControlUI.png" width="70%">
+ <img src="./webpage/SourceControlUI.png" width="70%">
 
 10. Click on the source control, hint: its on the left side panel, and it will list down the files that have been modified or updated. Click on commit. It will then ask you "Would you like to stage all your changes and commit them directly?" Just say yes, and a new tab will appear. Type a message to log what you have done, and click on the check mark. 
 
- <img src="./images/CommittingUI.png" width="70%">
+ <img src="./webpage/CommittingUI.png" width="70%">
 
 11. After that, sync the changes to the main repository. 
 12. Make sure to commit and sync your files to the main repository, or else, your work will be lost since it is not saved into the main repository when you submit your project.
@@ -194,14 +194,14 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 4. If it works, codespace will trigger a port assignment and provide a URL for you to access your webpage like the one below.
 
- <img src="./images/websitelink.png" width="70%">
+ <img src="./webpage/websitelink.png" width="70%">
 
 
 5. You can also see the Port in the **PORTS** tab, next to the terminal tab.
 
 6. You can then access your website by adding an index.html towards the end of your url link, like the one below. 
 
- <img src="./images/helloworldweb.png" width="70%">
+ <img src="./webpage/helloworldweb.png" width="70%">
 
 ***Questions:***
 
