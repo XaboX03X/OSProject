@@ -1,13 +1,15 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+<img src="./webpage/thanos.jpg" width=100%>
 
-Section: __Fill your class section__. 
+Group Name: __ThanOS__. 
+
+Section: __Section 4__. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
-2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
+1. __Muhammad Firdaus Bin Badrul Hisyam__ and __2222041__
+2. __Abu Marwan Bin Abu Zakie__ and __2221579__
+3. __Muhammad Rafiqi bin Mohd Razak__ and __2224155__
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
@@ -24,8 +26,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __Fill answer here__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __https://github.com/XaboX03X/OSProject/__.
+2. How many files and folders are in this repository. ***(1 mark)*** __1 file and 1 folder__.
 
 
 ## Exploring github codespaces
@@ -57,9 +59,12 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Ubuntu__.
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)***
+__Standard option: 4 cores, 8 GB RAM, 32 GB SSD Storage__.
+__Premium option: 8 cores, 16 GB RAM, 64 GB SSD Storage__.
+
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Make sure we save our work in the repository and allows us to share our work with others__.
 
 ## Exploring the Terminal
 
@@ -76,23 +81,50 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** . ***(1 mark)***.
+2. Run the command **cat /etc/passwd** . ***(1 mark)***.
+**Image for question 1&2**
+<img src="./webpage/pwdcat.jpg" width=70%>
+
+3. Run the command **df** . ***(1 mark)***.
+<img src="./webpage/df.jpg" width=70%>
+
+4. Run the command **du** . ***(1 mark)***.
+<img src="./webpage/du.jpg" width=70%>
+
+5. Run the command **ls** . ***(1 mark)***.
+6. Run the command **ls -asl** . ***(1 mark)***.
+7. Run the command **free -h** . ***(1 mark)***.
+**Image for question 5 until 7**
+<img src="./webpage/lslsfree.jpg" width=70%>
+
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)**.
+<img src="./webpage/proc1.jpg" width=70%>
+<img src="./webpage/proc2.jpg" width=70%>
+
+9. Run the command **top** and type **q** to quit. ***(1 mark)***.
+<img src="./webpage/topq.jpg" width=70%>
+
+10. Run the command **uname -a**. ***(1 mark)***.
+<img src="./webpage/uname.jpg" width=70%>
+
+11. What is the available free memory in the system. ***(1 mark)*** __6.0Gi__.
+<img src="./webpage/freemi.jpg" width=70%>
+
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** __20777192__.
+<img src="./webpage/diskspace.jpg" width=70%>
+
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)***.
+<img src="./webpage/uname.jpg" width=70%>
+
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __ls lists the contents of a directory, while ls -asl lists the contents with detailed information including permissions, number of links, owner, group, size, and timestamp.__.
+
+15. What is the TLB size of the Virtual CPU. ***(1 mark)***. __2560 4k pages__
+<img src="./webpage/tlbsize.jpg" width=70%>
+
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __2920.57MHz__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)***.
+<img src="./webpage/toprun.jpg" width=70%>
 
 ## Running your own container instance.
 
@@ -101,6 +133,7 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 docker pull debian
 docker run --detach -it debian
 ```
+
 2. This will run the debian container. To check if the debian container is running, type
 ```bash
 @joeynor ➜ /workspaces/OSProject (main) $ docker ps -a
@@ -112,6 +145,8 @@ f65be1987f84   debian    "bash"    4 minutes ago   Up 4 minutes             roma
 ```bash
 docker exec -i -t romantic_jackson /bin/bash
 ```
+
+<img src="./webpage/container123.jpg" width=70%>
 
 4. Create a file on the container. First you must make sure you are in the bash command prompt of the container. The container is new, and does not have any software other than the debian OS. To create a new file, you will need an editor installed. In the bash shell of the container, run the package manager apt-get to install nano text editor. 
 
@@ -125,7 +160,11 @@ root@f65be1987f84:~# cd /root
 root@f65be1987f84:~# nano helloworld.txt
 ```
 
+<img src="./webpage/container4.jpg" width=70%>
+
 5. Edit your helloworld.txt, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit**.
+
+<img src="./webpage/container5.jpg" width=70%>
 
 6. Stop the container and run **docker ps -a**, and restart the container again. Is your file in the container still available?
 ```bash 
@@ -137,6 +176,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 @joeynor ➜ /workspaces/OSProject (main) $ docker restart romantic_jackson
 ```
+
+<img src="./webpage/container6.jpg" width=70%>
 
 7. Stop the container and delete the container. What happened to your helloworld.txt?
 
@@ -150,10 +191,13 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 @joeynor ➜ /workspaces/OSProject (main) $ docker rm romantic_jackson
 ```
 
+<img src="./webpage/container7.jpg" width=70%>
+
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** __No, files in the container are not persistent by default. This is because containers are designed to be ephemeral, meaning they can be created and destroyed without affecting the host system. Any data stored in the container's file system will be lost when the container is removed. To persist data, you need to use Docker volumes or bind mounts, which allow data to be stored outside the container's file system and be retained even after the container is deleted.__.
+
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes, you can run multiple instances of Debian Linux. Each instance runs in its own isolated container, and you can create and start as many instances as your system resources allow.__.
 
 ## Running your own container with persistent storage
 
@@ -172,19 +216,24 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __user: youthful_shirley__.
+<img src="./webpage/containerp1.jpg" width=70%>
+
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+<img src="./webpage/containerp2.jpg" width=70%>
 
 ## You are on your own, create your own static webpage
 
 1. Create a directory called webpage in your host machine
 2. Inside the directory, create a page index.html, with any content you would like
+<img src="./webpage/staticw12.jpg" width=70%>
+<img src="./webpage/staticw2.jpg" width=70%>
+
 3. Then, run the apache webserver and mount the webpage directory to it. Hint:
 ```bash
 ## the -p 8080:80 flag points the host port 8080 to the container port 80
@@ -203,11 +252,17 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
  <img src="./webpage/helloworldweb.png" width="70%">
 
+**Image of static webpage**
+<img src="./webpage/staticw3456.jpg" width=70%>
+
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)*** __Fill answer here__.
-3. What port is open for http protocol on the host machine? ***(1 mark)*** __Fill answer here__.
+<img src="./webpage/staticq1.jpg" width=70%>
+
+2. What port is the apache web server running. ***(1 mark)*** __8081__.
+3. What port is open for http protocol on the host machine? ***(1 mark)*** __8081:80__.
+<img src="./webpage/staticq3.jpg" width=70%>
 
 ## Create SUB Networks
 
@@ -224,13 +279,24 @@ docker network create rednet`
 docker run -itd --net bluenet --name c1 busybox sh
 docker run -itd --net rednet --name c2 busybox sh
 ```
+<img src="./webpage/subnet12.jpg" width=70%>
+
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
-2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** __Fill answer here__.
-3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __Fill answer here__.
-4. What is the network address for the running container c1 and c2? ***(1 mark)*** __Fill answer here__.
-5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Busybox is a lightweight and versatile Unix toolkit that combines tiny versions of many common Unix utilities into a single small executable. It is often used in Docker containers as a minimalistic base image.__.
+
+2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** __name command switch: The --name switch in Docker allows you to specify a custom name for your container instead of Docker automatically generating a random name. It makes it easier to reference and manage containers using a meaningful name.__.
+
+3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** 
+__Bluenet gateway: 172.18.0.1__.
+__Rednet gateway: 172.19.0.1__.
+
+4. What is the network address for the running container c1 and c2? ***(1 mark)***
+__Network Address c1: 172.18.0.2__.
+__Netword Address c2: 172.19.0.2__.
+
+5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***.
+<img src="./webpage/subnet5.jpg" width=70%>
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
@@ -242,8 +308,11 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
-2. What is different from the previous ping in the section above? ***(1 mark)*** __Fill answer here__.
+1. Are you able to ping? Show your output . ***(1 mark)*** __Yes__.
+<img src="./webpage/bridge1.jpg" width=70%>
+
+2. What is different from the previous ping in the section above? ***(1 mark)***
+__the main difference is in how Docker handles network isolation and routing between containers based on whether they are in the same or different Docker networks.__.
 
 ## Intermediate Level (10 marks bonus)
 
@@ -386,8 +455,17 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** __Fill answer here__.
-2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
+1. What is the output of step 5 above, explain the error? ***(1 mark)***
+__- Connection Error: Messages like "Error connecting to MySQL" or similar database connectivity issues.__
+__- Query Execution Error: Errors related to executing the SQL query, such as syntax errors or issues with database permissions.__
+__- Server Error: HTTP status code 500 with a message like "Server Error" indicating a problem within the server-side code.__.
+<img src="./webpage/bonusq1.jpg" width=70%>
+
+2. Show the instruction needed to make this work. ***(1 mark)***
+__1. Define Route in Node.js Application:__
+__Ensure that your Node.js application (index.js or similar) defines a route to handle GET requests to /random. Here's an example snippet of how to define this route using Express__
+__2. Build and Run Node.js Docker Container.__
+__3. Test with curl Command.__
 
 
 
